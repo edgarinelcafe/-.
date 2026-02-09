@@ -11,21 +11,44 @@ body {
 .card {
   background: white;
   padding: 40px;
-  border-radius: 20px;
+  border-radius: 25px;
   text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4d6d;
+  font-size: 36px;
+}
+
+.sub {
+  font-size: 18px;
+  color: #ff758f;
+}
+
+.buttons {
+  margin-top: 20px;
 }
 
 button {
   background: #ff4d6d;
-  color: white;
   border: none;
-  padding: 15px 25px;
+  color: white;
+  padding: 15px 30px;
   margin: 10px;
+  font-size: 16px;
   border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 #message {
-  margin-top: 20px;
+  margin-top: 25px;
+  font-size: 22px;
   color: #ff4d6d;
-  font-size: 18px;
+  font-weight: bold;
 }
